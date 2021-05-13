@@ -10,9 +10,9 @@ def foo(A, B, C):
     logger.addHandler(fh)
 
     logger.info(f'args: ({A}, {B}, {C})')
-    
+
     result = (A - B) * C
 
     logger.info(f'result: {result}')
-    
+
     return result
